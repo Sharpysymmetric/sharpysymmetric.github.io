@@ -1,5 +1,5 @@
 body {color: #f0ff00;
 	background-color: #020049; margin-left: auto; margin-right: auto; width: 80%;}
 h1 {border-bottom: 2px solid #00ffdf;}
-button {float: left; height:72px; width:72px; margin-left: 20px; margin-right: 20px; background-color:#B700FF; border-radius: 20%; font-size: auto; text-align: center;}
+button {float: left; height:72px; width:72px; margin-left: 20px; margin-right: 20px; background-color:#B700FF; border-radius: 50%; font-size: auto; text-align: center;}
 footer {font-size: 9px;}
