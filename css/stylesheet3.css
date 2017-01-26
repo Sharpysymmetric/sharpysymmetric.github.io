@@ -1,5 +1,5 @@
-body {color: #8C9C89;
-	background-color: #00FFCB;}
+body {color: #00FFCB;
+	background-color: #8C9C89;}
 h1 {border-bottom: 2px solid #1F00FF;}
-button {float: left; padding-left: 5px; padding-right: 5px; border-radius: 70%;}
-footer {font-size: 5px;}
+button {float: left; padding-left: 10px; padding-right: 10px; border-radius: 70%;}
+footer {font-size: 9px;}
