@@ -1,5 +1,5 @@
 body {color: white; background-color: black;}
-nav ul {list-style-type: none;}
+ul {list-style-type: none;}
 a {color: red;}
 a:visited {color: gray;}
 a:hover {color: yellow; background-color: red; text-decoration: none;}
