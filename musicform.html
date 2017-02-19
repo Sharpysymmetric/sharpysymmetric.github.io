@@ -13,18 +13,22 @@
 		<input type="text" name="Email" id="email"><br>
 		Select Your Favorite Types of Music <br>
 		<div id="checkbox">
-			<label><input type="checkbox" name="pop" id="Pop">Pop</label><br>
-			<label><input type="checkbox" name="classical" id="Classical">Classical</label><br>
-			<label><input type="checkbox" name="rock" id="Rock">Rock</label><br>
-			<label><input type="checkbox" name="folk" id="Folk">Folk</label><br>
-			<label><input type="checkbox" name="rap" id="Rap">Rap</label><br>
-			<label><input type="checkbox" name="other" id="Other">Other</label><br>
+			<fieldset><legend>What types of music do you listen to?</legend>
+				<label><input type="checkbox" name="pop" id="Pop">Pop</label><br>
+				<label><input type="checkbox" name="classical" id="Classical">Classical</label><br>
+				<label><input type="checkbox" name="rock" id="Rock">Rock</label><br>
+				<label><input type="checkbox" name="folk" id="Folk">Folk</label><br>
+				<label><input type="checkbox" name="rap" id="Rap">Rap</label><br>
+				<label><input type="checkbox" name="other" id="Other">Other</label><br>
+			</fieldset>
 		</div>
 		<div id="radiobox">
-			<input type="Radio" Name="purchaseFreq" Value="Often">Often
-			<input type="Radio" Name="purchaseFreq" Value="Occasionally">Occasionally
-			<input type="Radio" Name="purchaseFreq" Value="Rarely">Rarely
-			<input type="Radio" Name="purchaseFreq" Value="Never">Never
+			<fieldset><legend>How often do you buy CDs?</legend>
+				<input type="Radio" Name="purchaseFreq" Value="Often">Often
+				<input type="Radio" Name="purchaseFreq" Value="Occasionally">Occasionally
+				<input type="Radio" Name="purchaseFreq" Value="Rarely">Rarely
+				<input type="Radio" Name="purchaseFreq" Value="Never">Never
+			</fieldset>
 		</div>
 		Locations you listen to music <br>
 		<select multiple size="3">
