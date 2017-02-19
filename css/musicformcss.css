@@ -1,3 +1,4 @@
+body {background-color: black; color: yellow; }
 #checkbox { border-style: ridge; }
 #radiobox { border-style: ridge; }
-form {background-color: black; color: yellow; }
+form {background-color: black; color: yellow; border-color: yellow }
