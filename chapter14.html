@@ -8,11 +8,12 @@
 			Name: <input type="text" name="nameBox">
 			<br>
 			E-Mail Address: <input type="text" name="emailBox">
-			<input type="submit" value="Sign Up Now!">
+			<input type="submit" value="Sign Up Now!" on>
 			</form>
 	</body>
 	<script>
 		function validateForm() {
+		    var emailFormat (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 			if (document.forms[0].nameBox.value == "") {
 				alert ("Name not entered, please correct and resubmit.");
 				return false;
@@ -21,18 +22,15 @@
 				alert ("Email address cannot be empty");
 				return false;
 			}
-			return true;
-		}
-		function validateEmail(emailBox) {
-			var emailFormat (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/; 
-				if (document.forms[0].emailBox.value.match(emailFormat)) {
+
+			if (document.forms[0].emailBox.value.match(emailFormat)) {
 					document.forms[0].emailBox.focus();
 					return true;
 				}
-				else {
-					alert("Email is Invalid, please check for errors and retry.");
-					document.forms[0].emailBox.focus();
-					return false;
+			else {
+				alert("Email is Invalid, please check for errors and retry.");
+				document.forms[0].emailBox.focus();
+				return false;
 				}
 				
 		}
