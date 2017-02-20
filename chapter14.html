@@ -2,17 +2,7 @@
 <html>
 	<head>
 		<title>JavaScript Chapter 14</title>
-	</head>
-	<body>
-		<form method="post" action="http://www.markmurtha.com/csis128/readform.asp">
-			Name: <input type="text" name="nameBox">
-			<br>
-			E-Mail Address: <input type="text" name="emailBox">
-			<br>
-			<input type="submit" value="Sign Up Now!" onsubmit="return validateForm()">
-			</form>
-	</body>
-	<script>
+			<script>
 		function validateForm() {
 		    var emailFormat (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 			if (document.forms[0].nameBox.value == "") {
@@ -25,16 +15,24 @@
 			}
 
 			if (document.forms[0].emailBox.value.match(emailFormat)) {
-					document.forms[0].emailBox.focus();
 					return true;
 				}
 			else {
 				alert("Email is Invalid, please check for errors and retry.");
-				document.forms[0].emailBox.focus();
 				return false;
 				}
 				
 		}
 	</script>
+	</head>
+	<body>
+		<form method="post" action="http://www.markmurtha.com/csis128/readform.asp">
+			Name: <input type="text" name="nameBox">
+			<br>
+			E-Mail Address: <input type="text" name="emailBox">
+			<br>
+			<input type="submit" value="Sign Up Now!" onsubmit="return validateForm()">
+			</form>
+	</body>
 		
 </html>
