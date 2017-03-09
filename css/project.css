@@ -17,7 +17,7 @@ nav a:hover {color: #000000;
 		background-color: #04FF00;}
 nav a:active {color: #04FF00; background-color: #000000;}
 table {color: #00FFC3;
-        background-color:#474545;}
+        background-color:#474545;margin-top: 15px;}
 table, tr, td{border-bottom: 2px solid #00FFC3; border-left: 1px solid #00FFC3; border-right: 1px solid #00FFC3;}
 th {border-bottom: 3px inset #020092; color: #474545; border-color:#00FFC3;}
 td:hover {color:#04FF00; background-color:#000000; border: 2px solid #04FF00;}
