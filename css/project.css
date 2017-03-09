@@ -4,7 +4,7 @@ h1 {border-bottom: 2px solid #FF7900;}
 button {float: left;}
 footer {font-size: 11px; margin-top: 75px;}
 nav {position: fixed; margin-bottom: 50px;}
-nav ul { list-style-type none; border: 3px solid #0A0A0A;}
+nav ul { list-style-type: none; border: 3px solid #0A0A0A; margin-bottom: 20px;}
 nav a { text-decoration: none;
 	padding-right: 10px;}
 nav li { display: inline;}
