@@ -23,8 +23,8 @@ table {text-align:center;position:relative; bottom: 0;display:block; margin:0 au
 table, tr, td{text-align:center; margin-left:20px;border-bottom: 2px solid #00FFC3; border-left: 1px solid #00FFC3; border-right: 1px solid #00FFC3;overflow:visible;height:auto; width:auto;}
 th {text-align:center;border-bottom: 3px inset #020092; color:#000000;background-color: #04FF00; border-color:#00FFC3;}
 td:hover {color:#04FF00; background-color:#000000; 4px solid #04FF00;}
-.para {padding-top:5px; text-align:center; overflow:auto; width:auto;}
-.article1 {color:#fff;display:block; position: relative; left:20; top: 55px; float: left; width: 180px; height:auto; border: 5px ridge #26F800; font-size:12px; text-align:center;}
+.para {padding-top:5px; text-align:center; overflow:auto; width:auto;text-align:center;}
+.article1 {color:#fff;display:block; position: relative; left:20; top: 55px; float: left; width: 100%; height:auto; border: 5px ridge #26F800; font-size:12px; text-align:center;}
 .article2 {color:#fff;display:block; position: relative; top: 20px; float: left; width: 25%; height:auto; border: 5px ridge #26F800; font-size:12px; text-align:center;}
 .centerbox {width:95%; margin:auto; padding:10px;}
 .relativecenter {margin: auto; width: 75%; padding: 10px;}
