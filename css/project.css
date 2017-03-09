@@ -5,8 +5,8 @@ h3 {color:#26F800; border-bottom:1px dashed #fff; outline-color:#000000; text-sh
 header { width:100%; margin:auto; text-align:center; vertical-align:middle;}
 button {float: left;}
 footer {font-size: 11px;}
-nav {position:absolute; left:10; right:10; bottom:0; top:180; width:80%; margin:auto;}
-nav ul {display:block; border: 2px solid #000000; position:absolute; left:20; right: 20; top:35; list-style-type: none; background-color:#474545;box-shadow:9px 8px 9px 5px #26F800}
+nav {position:absolute; left:10; right:10; bottom:0; top:25; width:80%; margin:auto;}
+nav ul {display:block; margin:auto; top:35; list-style-type: none; background-color:#474545;box-shadow:9px 8px 9px 5px #26F800}
 nav a {text-decoration:none;text-align:center; vertical-align:middle; font-size:18px; margin:auto; margin-left:5%; margin-right:5%; border-left:2px solid #000000; border-right:2px solid #000000; text-shadow: 2px 2px 4px #000000; }
 nav li {display:inline;margin:auto; vertical-align: middle;}
 nav a:link { color: #04FF00;
