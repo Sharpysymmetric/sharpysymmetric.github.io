@@ -2,8 +2,8 @@ body {color: #26F800;
 	background-color: #474545;}
 h1 {border-bottom: 2px solid #FF7900;}
 button {float: left;}
-footer {font-size: 11px; margin-top: 75px}
-nav {position: fixed; margin-bottom: 50px}
+footer {font-size: 11px; margin-top: 75px;}
+nav {position: fixed; margin-bottom: 50px;}
 nav ul { list-style-type none; border: 3px solid #0A0A0A;}
 nav a { text-decoration: none;
 	padding-right: 10px;}
@@ -12,5 +12,5 @@ nav a:hover { color: #04FF00;
 	background-color: #2E2E2E;}
 nav a:link {color: #04FF00;
 		background-color: #2AFF00;}
-table {color: #00FFC3}
+table {color: #00FFC3;}
 .mainquote {margin-top: 20px; }
