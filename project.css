@@ -1,0 +1,28 @@
+body {color: #26F800;
+	background-color: #474545;}
+h1 {font-size:36;color:#000000; text-shadow: 0 0 5px #26F800, 0 0 5px #00FFC3; position:absolute; top:30; left: 0; right: 0;text-align:center; margin:auto; width: 80%; z-index: 1;}
+header{background:#474545 url("image/phones.jpg") no-repeat center; width:100%; margin:auto; text-align:center; vertical-align:middle;}
+button {float: left;}
+footer {font-size: 11px;}
+nav {background-color:#474545; position:absolute; left:10; right:10; bottom:0; top:20; width:80%; margin:auto;}
+nav ul {display:block; border: 2px solid #000000; position:absolute; left:20; right: 20; top:35; list-style-type: none; background-color:#474545;box-shadow:9px 8px 5px 5px #26F800}
+nav a {text-decoration:none;text-align:center; vertical-align:middle; font-size:18px; margin:auto; margin-left:5%; margin-right:5%; border-left:2px solid #000000; border-right:2px solid #000000; text-shadow: 2px 2px 4px #000000; }
+nav li {display:inline;margin:auto; vertical-align: middle;}
+nav a:link { color: #04FF00;
+	background-color: #474545;}
+nav a:visited { color: #04FF00;
+	background-color: #474545;}
+nav a:hover {color: #000000;
+		background-color: #04FF00;}
+nav a:active {color: #04FF00; background-color: #000000;}
+table {color: #00FFC3;
+        background-color:#474545;}
+table, tr, td{border-bottom: 2px solid #00FFC3; border-left: 1px solid #00FFC3; border-right: 1px solid #00FFC3;}
+th {border-bottom: 3px inset #020092; color: #474545; border-color:#00FFC3;}
+td:hover {color:#04FF00; background-color:#000000; 4px solid #04FF00;}
+.para {text-align:center; overflow:auto; width:auto;}
+.article1 {display:block; position: relative; top: 180px; float: left; width: 25%; height:auto;}
+.centerbox {width:95%; margin:auto; padding:10px;}
+.relativecenter {margin: auto; width: 75%; padding: 10px;}
+.sitelogo {padding: 5px; margin: 5px; height: auto; width:80%;}
+.pictureframe1 {width:239px; height: 211px; border-radius:75px 75px 75px 75px; background: #474545 url("image/droid.jpg") no-repeat center;}
