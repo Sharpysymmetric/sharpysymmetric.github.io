@@ -1,6 +1,6 @@
 body {color: #26F800;
 	background-color: #474545;}
-h1 {border-bottom: 2px solid #FF7900;}
+h1 {border-bottom: 2px solid #FF7900; margin-top: 15px;}
 button {float: left;}
 footer {font-size: 11px; margin-top: 75px;}
 nav {position: fixed; margin-bottom: 50px;}
