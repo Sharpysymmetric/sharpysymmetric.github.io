@@ -3,12 +3,14 @@ body {color: #26F800;
 h1 {border-bottom: 2px solid #FF7900;}
 button {float: left;}
 footer {font-size: 11px; margin-top: 75px}
-nav {border: 3px solid #001518}
+nav {border: 3px solid #2AFF00;
+	position: fixed;}
 nav ul { list-style-type none;}
 nav a { text-decoration: none;
 	padding-right: 10px;}
 nav li { display: inline;}
 nav a:hover { color: #04FF00;
 	background-color: #2E2E2E;}
-nav a:link {color: #2E2E2E;}
+nav a:link {color: #04FF00;
+		background-color: #2AFF00;}
 table {color: #00FFC3}
