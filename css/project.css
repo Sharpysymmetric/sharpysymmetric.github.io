@@ -5,7 +5,7 @@ h3 {color:#26F800; border-bottom:1px dashed #fff; outline-color:#000000; text-sh
 header { width:100%; margin:auto; text-align:center; vertical-align:middle;}
 button {float: left;}
 footer {font-size: 11px;}
-nav {position:absolute;left:0; right:0; top:120; width:80%; margin:auto;}
+nav {position:absolute;left:0; right:0; top:180; width:80%; margin:auto;}
 nav ul {display:block; margin:auto; list-style-type: none; background-color:#474545;box-shadow:9px 8px 9px 5px #26F800}
 nav a {text-decoration:none;text-align:center; vertical-align:middle; font-size:18px; margin:auto; margin-left:5%; margin-right:5%; border-left:2px solid #000000; border-right:2px solid #000000; text-shadow: 2px 2px 4px #000000; }
 nav li {display:inline; margin:auto; vertical-align: middle;}
@@ -26,8 +26,8 @@ td:hover {color:#04FF00; background-color:#000000; border: 2px solid #04FF00;}
 .centerbox {width:95%; margin:auto; padding:10px;}
 .relativecenter {margin: auto; width: 75%; padding: 5px;}
 .sitelogo {padding: 5px; margin: 5px; height: auto; width:80%;}
-.frame1 {display: block; width: 40%; margin:auto; z-index:-1;}
-.pictureframe1 {display:block; width:675px; height:275px; margin:auto; margin-bottom:20px; z-index:-1;}
+.frame1 {display: block; width: 60%; height;30%; margin:auto; z-index:-1;}
+.pictureframe1 {display:block; width:675px; height:275px; margin:auto;; z-index:-1;}
 .displayBlock {display:block; margin:auto;width:80%;}
 .thumb{border: 1px solid #000000; padding: 5px; width: 140px;}
 .thumb:hover {box-shadow: 0 0 4px #05004F61;} 
