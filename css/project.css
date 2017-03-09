@@ -24,10 +24,10 @@ td:hover {color:#04FF00; background-color:#000000; border: 2px solid #04FF00;}
 .para {text-align:center; overflow:auto; width:auto;}
 .article1 {color:#fff;display:block; position: relative; top: 180px; float: left; width: 25%; height:auto; border: 2px solid #26F800;}
 .centerbox {width:95%; margin:auto; padding:10px;}
-.relativecenter {margin: auto; width: 75%; padding: 10px;}
+.relativecenter {margin: auto; width: 75%; padding: 5px;}
 .sitelogo {padding: 5px; margin: 5px; height: auto; width:80%;}
-.frame1 {display: block; width: 40%; margin:auto; z-index:-1;}
-.pictureframe1 {display:block; width:675px; height:275px; margin:auto; margin-bottom:100px;}
+.frame1 {display: block; width: 40%; margin:auto;}
+.pictureframe1 {display:block; width:675px; height:275px; margin:auto; margin-bottom:20px;}
 .displayBlock {display:block; margin:auto;width:80%;}
 .thumb{border: 1px solid #000000; padding: 5px; width: 140px;}
 .thumb:hover {box-shadow: 0 0 4px #05004F61;} 
