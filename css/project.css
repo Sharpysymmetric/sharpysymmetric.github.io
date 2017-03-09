@@ -5,7 +5,7 @@ h3 {color:#26F800; border-bottom:1px dashed #fff; outline-color:#000000; text-sh
 header { width:100%; margin:auto; text-align:center; vertical-align:middle;}
 button {float: left;}
 footer {font-size: 11px;}
-nav {position:absolute; left:10; right:10; bottom:0; top:25; width:80%; margin:auto;}
+nav {display:block; left:10; right:10; bottom:0; top:25; width:80%; margin:auto;}
 nav ul {display:block; margin:auto; top:35; list-style-type: none; background-color:#474545;box-shadow:9px 8px 9px 5px #26F800}
 nav a {text-decoration:none;text-align:center; vertical-align:middle; font-size:18px; margin:auto; margin-left:5%; margin-right:5%; border-left:2px solid #000000; border-right:2px solid #000000; text-shadow: 2px 2px 4px #000000; }
 nav li {display:inline;margin:auto; vertical-align: middle;}
@@ -20,7 +20,7 @@ table {color: #00FFC3;
         background-color:#474545;}
 table, tr, td{border-bottom: 2px solid #00FFC3; border-left: 1px solid #00FFC3; border-right: 1px solid #00FFC3;}
 th {border-bottom: 3px inset #020092; color: #474545; border-color:#00FFC3;}
-td:hover {color:#04FF00; background-color:#000000; 4px solid #04FF00;}
+td:hover {color:#04FF00; background-color:#000000; border: 2px solid #04FF00;}
 .para {text-align:center; overflow:auto; width:auto;}
 .article1 {color:#fff;display:block; position: relative; top: 180px; float: left; width: 25%; height:auto; border: 2px solid #26F800;}
 .centerbox {width:95%; margin:auto; padding:10px;}
