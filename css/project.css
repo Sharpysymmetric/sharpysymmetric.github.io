@@ -1,6 +1,6 @@
 body {color: #26F800;
 	background-color: #474545;}
-h1 {font-size:36;color:#000000; text-shadow: 0 0 10px #26F800, 0 0 10px #00FFC3; position:absolute; top:10; left: 0; right: 0;text-align:center; margin:auto; width: 80%; z-index: 1;}
+h1 {font-size:36;color:#000000; text-shadow: 0 0 10px #26F800, 0 0 10px #00FFC3; position:absolute; top:10; left: 0; right: 0;text-align:center; margin:auto; width: 80%;}
 h3 {color:#26F800; border-bottom:1px dashed #fff; outline-color:#000000; text-shadow: 0 0 7px #00FFC3;text-align: center; font-size: 18; font-weight: bold; width:80%; margin:auto; padding-top:5px;}
 header { width:100%; margin:auto; text-align:center; vertical-align:middle;}
 button {float: left;}
