@@ -26,7 +26,7 @@ td:hover {color:#04FF00; background-color:#000000; 4px solid #04FF00;}
 .centerbox {width:95%; margin:auto; padding:10px;}
 .relativecenter {margin: auto; width: 75%; padding: 10px;}
 .sitelogo {padding: 5px; margin: 5px; height: auto; width:80%;}
-.frame1 {display: block; width: 80%; margin:auto;z-index: -1; height:50%;}
+.frame1 {display: block; width: 80%; margin:auto;}
 .pictureframe1 {display:block; width:675px; height:275px; margin:auto; margin-bottom:100px;}
 .displayBlock {display:block; margin:auto;width:80%;}
 .thumb{border: 1px solid #000000; padding: 5px; width: 140px;}
