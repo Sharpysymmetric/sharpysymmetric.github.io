@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="css/project.css">
+    <title>Newsletter</title>
+    <script type="text/javascript">
+      function validate()
+      {
+      
+         if( document.finalForm.firstName.value == "" )
+         {
+            alert( "You forgot your name!" );
+            document.finalForm.firstName.focus() ;
+            return false;
+         }
+         
+         if( document.finalForm.lastName.value == "" )
+         {
+            alert( "Please tell us who you are!" );
+            document.finalForm.lastName.focus() ;
+            return false;
+         }
+         
+         if( document.finalForm.email.value == "" )
+         {
+            alert( "Please provide your email." );
+            document.finalForm.email.focus() ;
+            return false;
+         }
+         
+      </script>
+      
+  </head>
+  <body>
+	  <body>
+        <div class="sitelogo">
+        </div>
+        <nav class="relativecenter">
+            <ul>
+                <li class="relativecenter"><a href="finalproject.html">Home</a>
+                </li>
+                <li class="relativecenter"><a href="securityandyou.html">Security 101</a>
+                </li>
+                <li class="relativecenter"><a href="Mobile.html">Mobile Platforms</a>
+                </li>
+                <li class="relativecenter"><a href="what_is_root_and_jailbreak.html">JailBreak/Root.</a>
+                </li>
+                <li class="relativecenter"><a href="android101">Android 101</a>
+                </li>
+                </ul>
+        </nav>
+        <h2>If you would like to sign up for our monthly email news letter, which features information regarding mobile devices and other random interests. Feel free to fill out the form below.</h2>
+          <div> 
+            <form action="/cgi-bin/test.cgi" name="finalForm" onsubmit="return validate()" method="post">
+                <fieldset>
+                    <legend>User Information:</legend>
+                    First Name: <input type="text" required name="firstName"><br>
+                    Last Name: <input type="text" required name="lastName"><br>
+                    Email: <input type="email" required name="email"><br>
+                </fieldset>
+                <fieldset>
+                    <legend>What kind of Phone do you have?</legend>
+                        <input type="radio" name="phone" value="android" checked> Android<br>
+                        <input type="radio" name="phone" value="iphone" checked> iPhone<br>
+                        <input type="radio" name="phone" value="windows" checked> Windows<br>
+                </fieldset>
+                <p>Do you plan to change to a different mobile operationg system in the next six months?</p>
+                <input type="checkbox" name="phone1" value="Yes">Yes<br>
+                <input type="checbox" name="phone2" value="No">No<br>
+                <br>
+                <input type="submit" value="submit"> <span><input type="reset" value="reset"></span>
+              </form>
+                
